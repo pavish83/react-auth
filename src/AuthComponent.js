@@ -25,7 +25,7 @@ const AuthComponent = () => {
       .catch((error) => {
         error = new Error();
       });
-  }, [])
+  }, [token])
 
   // logout
   const logout = () => {
